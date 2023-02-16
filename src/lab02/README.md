@@ -25,16 +25,15 @@ Hello, Young!
 It's recommended that you self-test your solution before submitting it. You can do this by running the following command in the terminal:
 
 ```
-$ make
+python testing.py
 ```
 
-## Evaluation
+This script runs the automated tests to verify if your solution is correct or not.
 
-Your solution will be evaluated based on:
-- Correctness of the output when no argument is passed.
-- Correctness of the output when an argument is passed.
-- Correctness of the function definition and structure.
+Alternatively, you can run the following command if you have the "make" tool installed:
 
-## Submission
+```
+make
+```
 
-Submit your solution as a single Python file named `main.py`.
+This will also run the automated tests to verify if your solution is correct or not. If you don't have the "make" tool installed, you can use the first command to test your solution.
