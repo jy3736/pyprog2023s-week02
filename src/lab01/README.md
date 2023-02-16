@@ -16,7 +16,7 @@ $ python hello.py
 Hello, STUST!
 ```
 
-## Self-Testing with make
+## Self-testing locally
 It's recommended that you self-test your solution before submitting it. You can do this by running the following command in the terminal:
 
 ```
@@ -30,5 +30,3 @@ Alternatively, you can run the following command if you have the "make" tool ins
 ```
 make
 ```
-
-This will also run the automated tests to verify if your solution is correct or not. If you don't have the "make" tool installed, you can use the first command to test your solution.

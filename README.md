@@ -1,4 +1,4 @@
-## Autograded Homework Assignments for Python Programming, Spring 2023
+## Homework Assignments for Python Programming, Spring 2023
 
 ### Notes:
 
