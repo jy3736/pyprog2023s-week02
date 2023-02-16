@@ -1,4 +1,4 @@
-# Time Difference
+# Time Difference Between Two Timestamps
 
 ## Objective
 Write a Python program that takes two timestamps as input and returns the time difference between them in seconds.
