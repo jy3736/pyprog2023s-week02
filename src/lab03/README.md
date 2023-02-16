@@ -6,7 +6,7 @@ Write a Python program that takes two timestamps as input and returns the time d
 ## Requirements
 The program should meet the following requirements:
 - The program should define a function named `main` that takes no arguments.
-- The program should accept two timestamps in the format 'hours minutes seconds' using the input() function.
+- The program should accept two timestamps in the format `'hours minutes seconds'` using the input() function.
 - If the second timestamp is before the first timestamp, the function should return -1.
 - Otherwise, the function should return the time difference between the two timestamps in seconds.
 - The program should print the output of the `main` function.
