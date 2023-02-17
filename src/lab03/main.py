@@ -4,7 +4,7 @@ def main():
     time_list1 = time1.split()
     time_list2 = time2.split()
     hours1 = int(time_list1[0])
-    minutes1 = int(time_list1[0])
+    minutes1 = int(time_list1[1])
     seconds1 = int(time_list1[2])
     hours2 = int(time_list2[0])
     minutes2 = int(time_list2[1])

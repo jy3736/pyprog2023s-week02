@@ -26,7 +26,7 @@ class TestMain(unittest.TestCase):
                       ("0 0 0\n23 59 59\n", "86399\n"),
                       ("23 59 59\n0 0 0\n", "-1\n")]
         for test_input, expected_output in test_cases:
-            print(f"Testing case:\n{test_input}" )
+            print(f"Testing case:\n{test_input}{expected_output}")
             with patch('sys.stdin', StringIO(test_input)):
                 with patch('sys.stdout', new=StringIO()) as result:
                     main()
