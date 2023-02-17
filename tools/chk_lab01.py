@@ -3,10 +3,10 @@
 import unittest
 import sys
 import io
-import os
+import os 
 import random
 
-script_name = sys.argv[0]
+script_name = sys.argv[0] 
 base_name = os.path.basename(script_name)
 lab_name = os.path.splitext(base_name)[0].split("_")[-1]
 lab_dir = '../src/' + lab_name
