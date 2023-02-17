@@ -33,4 +33,4 @@ class TestMain(unittest.TestCase):
                     self.assertEqual(result.getvalue(), expected_output)
 
 if __name__ == '__main__':
-    unittest.main(argv=[''], exit=False)
+    unittest.main()
